@@ -1,7 +1,8 @@
-# Gift Asset API <img src="[https://telegram.org/img/t_logo.svg](https://i.imgur.com/MdN6xlJ.png)" width="30" height="30" alt="Telegram">
+# Gift Asset
 
-*The DataCenter for Telegram Gifts • Standardizing the chaos*
+🎁 **Gift Asset** is an API and platform that aggregates all available data about **Telegram Gifts** — unique visual assets and a new layer of the digital economy inside Telegram.
 
+---
 
 ## What is it?
 
