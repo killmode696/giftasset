@@ -207,7 +207,106 @@
 - `limit` *(integer, required)* — How many gifts to return  
 - `offset` *(integer, optional)* — For pagination
 
-**Response:** `200 OK`
+**Response:**
+```json
+[
+  {
+    "attributes": {
+      "BACKDROP": {
+        "media": "https://giftasset.pro/api/v1/data/backdrops/chocolate.png",
+        "name": "Chocolate",
+        "rarity": 10,
+        "readable_rarity": 1
+      },
+      "MODEL": {
+        "media": "https://giftasset.pro/api/v1/data/models/garnet.png",
+        "name": "Garnet",
+        "rarity": 24,
+        "readable_rarity": 2.4
+      },
+      "SYMBOL": {
+        "media": "https://giftasset.pro/api/v1/data/symbols/knight.png",
+        "name": "Knight",
+        "rarity": 10,
+        "readable_rarity": 1
+      }
+    },
+    "attributes_array": [
+      {
+        "name": "Knight",
+        "rarity": 1,
+        "type": "SYMBOL"
+      },
+      {
+        "name": "Chocolate",
+        "rarity": 1,
+        "type": "BACKDROP"
+      },
+      {
+        "name": "Garnet",
+        "rarity": 2.4,
+        "type": "MODEL"
+      }
+    ],
+    "collectible_id": 2072,
+    "id": 692564,
+    "last_updated_at": "2025-08-16T07:09:02Z",
+    "market_floor": {
+      "avg": 80,
+      "max": 85,
+      "min": 76
+    },
+    "media": {
+      "lottie_anim": "https://nft.fragment.com/gift/astralshard-2072.lottie.json",
+      "pics": {
+        "large": "https://nft.fragment.com/gift/astralshard-2072.large.jpg",
+        "medium": "https://nft.fragment.com/gift/astralshard-2072.medium.jpg",
+        "small": "https://nft.fragment.com/gift/astralshard-2072.small.jpg"
+      }
+    },
+    "media_preview": "https://nft.fragment.com/gift/astralshard-2072.medium.jpg",
+    "providers": {
+      "getgems": {
+        "collection_floor": 76,
+        "model_floor": 100,
+        "sales_stat": {
+          "sales_24h": 1,
+          "sales_24h_value": 135,
+          "sales_all": 24,
+          "sales_all_value": 2293
+        }
+      },
+      "portals": {
+        "collection_floor": 79,
+        "model_floor": 130,
+        "sales_stat": {
+          "sales_24h": 10,
+          "sales_24h_value": 772,
+          "sales_all": 1622,
+          "sales_all_value": 149899
+        }
+      },
+      "tonnel": {
+        "collection_floor": 85,
+        "model_floor": 90,
+        "sales_stat": {
+          "sales_24h": 4,
+          "sales_24h_value": 350,
+          "sales_all": 2410,
+          "sales_all_value": 175386
+        }
+      }
+    },
+    "rarity_index": 0.00024,
+    "telegram_gift_id": 5830425027807282000,
+    "telegram_gift_name": "AstralShard-2072",
+    "telegram_gift_number": 5370,
+    "telegram_gift_title": "Astral Shard",
+    "telegram_nft_url": "https://t.me/nft/AstralShard-2072",
+    "total_amount": 6196
+  }
+]
+```
 
 ---
 
