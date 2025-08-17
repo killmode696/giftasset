@@ -45,7 +45,7 @@
 - `exclude` *(array of strings)* — All except the specified collections  
 
 **Response:**
-``json
+```json
 [
   {
     "collection_name": "Astral Shard",
@@ -84,7 +84,7 @@
     "count": 1
   }
 ]
-``
+```
 
 ---
 
