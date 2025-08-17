@@ -96,7 +96,104 @@
 
 - `name` *(string, required)* — Gift name (e.g., `EasterEgg-1`)
 
-**Response:** `200 OK`
+**Response:** 
+```json
+{
+  "attributes": {
+    "BACKDROP": {
+      "media": "https://giftasset.pro/api/v1/data/backdrops/hunter_green.png",
+      "name": "Hunter Green",
+      "rarity": 12,
+      "readable_rarity": 1.2
+    },
+    "MODEL": {
+      "media": "https://giftasset.pro/api/v1/data/models/redwhelp.png",
+      "name": "Red Whelp",
+      "rarity": 5,
+      "readable_rarity": 0.5
+    },
+    "SYMBOL": {
+      "media": "https://giftasset.pro/api/v1/data/symbols/moose_head.png",
+      "name": "Moose Head",
+      "rarity": 5,
+      "readable_rarity": 0.5
+    }
+  },
+  "attributes_array": [
+    {
+      "name": "Red Whelp",
+      "rarity": 0.5,
+      "type": "MODEL"
+    },
+    {
+      "name": "Moose Head",
+      "rarity": 0.5,
+      "type": "SYMBOL"
+    },
+    {
+      "name": "Hunter Green",
+      "rarity": 1.2,
+      "type": "BACKDROP"
+    }
+  ],
+  "collectible_id": 1,
+  "id": 1707,
+  "last_updated_at": "2025-08-16T07:14:44Z",
+  "market_floor": {
+    "avg": 1.933,
+    "max": 2,
+    "min": 1.9
+  },
+  "media": {
+    "lottie_anim": "https://nft.fragment.com/gift/easteregg-1.lottie.json",
+    "pics": {
+      "large": "https://nft.fragment.com/gift/easteregg-1.large.jpg",
+      "medium": "https://nft.fragment.com/gift/easteregg-1.medium.jpg",
+      "small": "https://nft.fragment.com/gift/easteregg-1.small.jpg"
+    }
+  },
+  "media_preview": "https://nft.fragment.com/gift/easteregg-1.medium.jpg",
+  "providers": {
+    "getgems": {
+      "collection_floor": 1.9,
+      "model_floor": 15,
+      "sales_stat": {
+        "sales_24h": 21,
+        "sales_24h_value": 85,
+        "sales_all": 251,
+        "sales_all_value": 997
+      }
+    },
+    "portals": {
+      "collection_floor": 1.9,
+      "model_floor": 9.7,
+      "sales_stat": {
+        "sales_24h": 295,
+        "sales_24h_value": 881,
+        "sales_all": 18309,
+        "sales_all_value": 71787
+      }
+    },
+    "tonnel": {
+      "collection_floor": 2,
+      "model_floor": 10.2,
+      "sales_stat": {
+        "sales_24h": 68,
+        "sales_24h_value": 218,
+        "sales_all": 80013,
+        "sales_all_value": 327740
+      }
+    }
+  },
+  "rarity_index": 0.00003,
+  "telegram_gift_id": 5774079931671643000,
+  "telegram_gift_name": "EasterEgg-1",
+  "telegram_gift_number": 150212,
+  "telegram_gift_title": "Easter Egg",
+  "telegram_nft_url": "https://t.me/nft/EasterEgg-1",
+  "total_amount": 173176
+}
+```
 
 ---
 
