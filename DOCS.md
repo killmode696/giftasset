@@ -35,12 +35,12 @@
 - `username` *(string, required)* — Telegram username
 
 **Request Body (optional):**
-
+```json
 {
   "include": ["Evil Eye"],
   "exclude": ["Evil Eye"]
 }
-
+```
 - `include` *(array of strings)* — Only the specified collections  
 - `exclude` *(array of strings)* — All except the specified collections  
 
