@@ -44,7 +44,47 @@
 - `include` *(array of strings)* — Only the specified collections  
 - `exclude` *(array of strings)* — All except the specified collections  
 
-**Response:** `200 OK`
+**Response:**
+`
+[
+  {
+    "collection_name": "Astral Shard",
+    "count": 1
+  },
+  {
+    "collection_name": "Sakura Flower",
+    "count": 1
+  },
+  {
+    "collection_name": "Big Year",
+    "count": 1
+  },
+  {
+    "collection_name": "Top Hat",
+    "count": 1
+  },
+  {
+    "collection_name": "Desk Calendar",
+    "count": 1
+  },
+  {
+    "collection_name": "Lunar Snake",
+    "count": 1
+  },
+  {
+    "collection_name": "Candy Cane",
+    "count": 1
+  },
+  {
+    "collection_name": "Swag Bag",
+    "count": 1
+  },
+  {
+    "collection_name": "Snoop Dogg",
+    "count": 1
+  }
+]
+`
 
 ---
 
