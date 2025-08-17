@@ -2,7 +2,7 @@
 
 **Gift Asset** is the unified data center and API for **Telegram Gifts** — unique visual collectibles inside Telegram that form a new layer of its digital economy.
 
-[DOCUMENTATION]([https://t.me/giftassetapi](https://github.com/killmode696/giftasset/blob/main/DOCS.md))
+## 📘 [DOCUMENTATION](https://github.com/killmode696/giftasset/blob/main/DOCS.md)
 ---
 
 ## 📌 What is it?
