@@ -17,6 +17,12 @@
 - [Get sales history of current provider](#get-sales-history-of-current-provider)
 - [Get providers' sales volumes](#get-providers-sales-volumes)
 - [Get the top deals of the day](#get-the-top-deals-of-the-day)
+- [Get the unique deals of the providers](#get-the-top-deals-of-the-day)
+
+### Metadata
+
+- [Get attributes metadata](#get-attributes-metadata)
+- [Get collections metadata](#get-collections-metadata)
 
 ### Analytics
 
@@ -24,6 +30,7 @@
 - [Get gift prices](#get-gift-prices)
 - [Get gift price list history](#get-gift-price-list-history)
 - [Get gifts update statistics](#get-gifts-update-statistics)
+- [Get the marketcap of gifts](#get-the-marketcap-of-gifts)
 
 ---
 
@@ -624,6 +631,162 @@
 
 ---
 
+## Get the unique deals of the providers
+
+**GET** `/api/v1/gifts/get_unique_deals`
+
+**Response:**
+```json
+{
+  "getgems": [
+    {
+      "gift": {
+        "attributes": {
+          "BACKDROP": {
+            "name": "Battleship Grey",
+            "rarity": 12,
+            "readable_rarity": 1.2
+          },
+          "MODEL": {
+            "name": "Monkey Mouse",
+            "rarity": 20,
+            "readable_rarity": 2
+          },
+          "SYMBOL": {
+            "name": "Paper Crane",
+            "rarity": 4,
+            "readable_rarity": 0.4
+          }
+        },
+        "attributes_array": [
+          {
+            "name": "Paper Crane",
+            "rarity": 0.4,
+            "type": "SYMBOL"
+          },
+          {
+            "name": "Battleship Grey",
+            "rarity": 1.2,
+            "type": "BACKDROP"
+          },
+          {
+            "name": "Monkey Mouse",
+            "rarity": 2,
+            "type": "MODEL"
+          }
+        ],
+        "collectible_id": 21755,
+        "id": 2083981,
+        "last_updated_at": "2025-09-02T08:52:21Z",
+        "market_floor": {
+          "avg": 1.865,
+          "max": 2.56,
+          "min": 0
+        },
+        "media": {
+          "lottie_anim": "https://nft.fragment.com/gift/jollychimp-21755.lottie.json",
+          "pics": {
+            "large": "https://nft.fragment.com/gift/jollychimp-21755.large.jpg",
+            "medium": "https://nft.fragment.com/gift/jollychimp-21755.medium.jpg",
+            "small": "https://nft.fragment.com/gift/jollychimp-21755.small.jpg"
+          }
+        },
+        "media_preview": "https://nft.fragment.com/gift/jollychimp-21755.medium.jpg",
+        "providers": {
+          "getgems": {
+            "collection_floor": 2.5,
+            "sales_stat": {
+              "sales_24h": 9,
+              "sales_24h_value": 93,
+              "sales_all": 9,
+              "sales_all_value": 93
+            }
+          },
+          "mrkt": {
+            "collection_floor": 2.56,
+            "sales_stat": {
+              "sales_24h": 202,
+              "sales_24h_value": 667,
+              "sales_all": 202,
+              "sales_all_value": 667
+            }
+          },
+          "portals": {
+            "collection_floor": 0,
+            "sales_stat": {
+              "sales_24h": 1110,
+              "sales_24h_value": 5496,
+              "sales_all": 1110,
+              "sales_all_value": 5496
+            }
+          },
+          "tonnel": {
+            "collection_floor": 2.4,
+            "sales_stat": {
+              "sales_24h": 230,
+              "sales_24h_value": 1085,
+              "sales_all": 230,
+              "sales_all_value": 1085
+            }
+          }
+        },
+        "rarity_index": 0.0001,
+        "telegram_gift_id": 5825670855492897000,
+        "telegram_gift_name": "JollyChimp-21755",
+        "telegram_gift_number": 94177,
+        "telegram_gift_title": "Jolly Chimp",
+        "telegram_nft_url": "https://t.me/nft/JollyChimp-21755",
+        "total_amount": 132155
+      },
+      "price": 25,
+      "telegram_gift_name": "JollyChimp-21755",
+      "unix": 1756802702
+    }
+  ]
+}
+```
+
+---
+
+## Get attributes metadata
+
+**GET** `/api/v1/gifts/get_attributes_metadata`
+
+**Response:**
+```json
+{
+  "Genie Lamp":{
+    "backdrops": [],
+    "models": [],
+    "symbols": []
+  }
+}
+```
+
+---
+
+## Get collections metadata
+
+**GET** `/api/v1/gifts/get_collections_metadata`
+
+**Response:**
+```json
+[
+  {
+    "collection_name": "Snoop Dogg",
+    "telegram_id": 6014591077976114000
+  },
+  {
+    "collection_name": "Swag Bag",
+    "telegram_id": 6012607142387779000
+  },
+  {
+    "collection_name": "Snoop Cigar",
+    "telegram_id": 6012435906336654000
+  }
+]
+```
+
 ## Get collections emission
 
 **GET** `/api/v1/gifts/get_gifts_collections_emission`
@@ -707,6 +870,25 @@
     {
       "gift_name": "SnakeBox-106895",
       "unix_time": 1754557963
+    }
+  ]
+}
+```
+---
+
+## Get the marketcap of gifts
+
+**GET** `/api/v1/gifts/get_gifts_collections_marketcap`
+
+**Response:**
+```json
+{
+  "getgems": [
+    {
+      "available_gifts": 5359,
+      "collection_name": "Astral Shard",
+      "floor": "85.00",
+      "ton_mcap": 455515
     }
   ]
 }
