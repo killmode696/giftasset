@@ -1,4 +1,4 @@
-# GiftAsset API Documentation
+# GiftAsset SDK Documentation
 
 ## 📘 [DOCUMENTATION](https://github.com/killmode696/giftasset/blob/main/DOCS.md)
 ## ⚙️ [SWAGGER](https://giftasset.pro/docs)
