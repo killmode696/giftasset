@@ -6,6 +6,7 @@
 
 # SDK - HOW TO USE
 
+```python
 from giftasset_sdk.giftasset_sdk import SDK
 import asyncio
 
@@ -17,7 +18,7 @@ async def main():
   print(r)
 
 asyncio.run(main())
-
+```
 ## Setup
 
 ```bash
