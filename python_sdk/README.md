@@ -1,6 +1,6 @@
 # GiftAsset API Documentation
 
-## 📘 [DOCUMENTATION]([https://giftasset.pro/docs](https://github.com/killmode696/giftasset/blob/main/DOCS.md))
+## 📘 [DOCUMENTATION](https://github.com/killmode696/giftasset/blob/main/DOCS.md)
 ## ⚙️ [SWAGGER](https://giftasset.pro/docs)
 
 
