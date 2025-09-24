@@ -1,7 +1,7 @@
-HTTP Status Code Standardization
+## HTTP Status Code Standardization
 This document outlines the standard HTTP status codes used by the API. Consistent use of these codes allows for predictable error handling and a better developer experience.
 
-##General Principles
+## General Principles
 **Successful Responses (2xx)**: The request was successfully received, understood, and processed.
 
 **Client Errors (4xx)**: The request contains bad syntax, invalid parameters, or cannot be fulfilled due to client-side issues (e.g., authentication, authorization, validation). The client should modify the request.
