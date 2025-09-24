@@ -1,5 +1,6 @@
 # GiftAsset API Documentation
 ## ⚙️ [SWAGGER](https://giftasset.pro/docs)
+## 🟢 [STATUS CODES](https://github.com/killmode696/giftasset/blob/main/status/HTTP_STATUS_CODES.md)
 ## 🧰 [PYTHON-SDK](https://github.com/killmode696/giftasset/blob/main/python_sdk/README.md)
 
 ### User-Data
