@@ -4,6 +4,8 @@
 ## ⚙️ [SWAGGER](https://giftasset.pro/docs)
 ## 🟢 [STATUS CODES](https://github.com/killmode696/giftasset/blob/main/status/HTTP_STATUS_CODES.md)
 
+> **📝 Note:** All method names in this SDK are identical to those in the Documentation and Swagger. This ensures consistency across all interfaces.
+> 
 # SDK - HOW TO USE
 
 ```python
