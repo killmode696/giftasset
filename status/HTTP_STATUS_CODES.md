@@ -13,7 +13,7 @@ This table lists the most common status codes you will encounter.
 
 | Status Code | Status Text | Description | Common Scenarios |
 | :---------- | :---------- | :---------- | :--------------- |
-| **200** | OK | The request was successful. | Successful `GET`, `PUT`, or `PATCH` request. |
+| **200** | OK | The request was successful. | Successful `GET`, `POST` request. |
 | **400** | Bad Request | The server cannot process the request due to a client error. | Missing required parameters, invalid JSON syntax, malformed request body. |
 | **401** | Unauthorized | Authentication is required and has failed or has not been provided. | Invalid, missing, or expired API key/token. |
 | **404** | Not Found | The requested resource could not be found on the server. | Invalid endpoint URL or data not founded. |
