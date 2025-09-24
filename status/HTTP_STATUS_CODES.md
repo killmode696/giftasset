@@ -8,7 +8,7 @@ This document outlines the standard HTTP status codes used by the API. Consisten
 
 **Server Errors (5xx)**: The server failed to fulfill a valid request due to an internal error. The client cannot fix this; it requires server-side intervention.
 
-##Standard Status Codes Reference
+## Standard Status Codes Reference
 This table lists the most common status codes you will encounter.
 
 | Status Code | Status Text | Description | Common Scenarios |
