@@ -17,4 +17,5 @@ This table lists the most common status codes you will encounter.
 | **400** | Bad Request | The server cannot process the request due to a client error. | Missing required parameters, invalid JSON syntax, malformed request body. |
 | **401** | Unauthorized | Authentication is required and has failed or has not been provided. | Invalid, missing, or expired API key/token. |
 | **404** | Not Found | The requested resource could not be found on the server. | Invalid endpoint URL or data not founded. |
+| **429** |	Too Many Requests |	The user has sent too many requests in a given amount of time ("rate limiting"). | Exceeding API rate limits, making too many requests in a short period. |
 | **500** | Internal Server Error | A generic error message when the server encounters an unexpected condition. | Unhandled exceptions, database connection errors. |
