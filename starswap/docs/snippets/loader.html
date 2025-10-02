@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Widget Loader</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <script>
+        // Load and Initialize the Widget
+        function loadWidget(callback) {
+            var cssUrl = 'https://giftasset.pro/api/v1/stars/src/v1/widget/css/stars-swap.css';
+            var jsUrl = 'https://giftasset.pro/api/v1/stars/src/v1/widget/js/stars-swap-widget.umd.js';
+
+            $('head').append('<link rel="stylesheet" href="' + cssUrl + '" />');
+
+            $.getScript(jsUrl)
+                .done(function() {
+                    initWidget();
+                    if (callback) callback();
+                })
+                .fail(function() {
+                    console.error('Widget init error');
+                });
+        }
+
+        // Initialize the Widget
+        function initWidget() {
+            if (typeof window.StarsSwapWidget !== 'undefined') {
+                window.StarsSwapWidget.init({
+                    partnerUid: 'your_partner_uid_here',
+                });
+            }
+        }
+
+        // Open the Widget
+        function openWidget() {
+            if (typeof window.StarsSwapWidget !== 'undefined' && window.StarsSwapWidget.open) {
+                window.StarsSwapWidget.open({
+                    tonConnect: window.tonConnectUI
+                });
+            } else {
+                console.error('Widget not loaded');
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+                const widget = document.querySelector('stars-swap-widget');
+                if (widget) {
+                    widget.style.setProperty('z-index', '999', 'important');
+                }
+            });
+        }
+
+        // Load and open the widget
+        loadWidget(function() {
+            openWidget();
+        });
+    </script>
+</body>
+</html>
